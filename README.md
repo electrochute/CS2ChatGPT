@@ -1,3 +1,5 @@
+<img width="724" height="239" alt="image" src="https://github.com/user-attachments/assets/3359b63e-274b-470a-909a-57ecc660d46d" />
+
 ### ENGLISH
 ### first launch and setup
 0. go to openrouter, get api key and paste it in chatgpt.py line 6
