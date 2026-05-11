@@ -2,11 +2,10 @@
 
 ### ENGLISH
 ### first launch and setup
-0. go to openrouter, get api key and paste it in chatgpt.py line 6
+0. go to openrouter, get api key and paste it in chatgpt.py line 5
 
 0.1. in main.py lines 8 9 10 change to your paths
 0.2. in util.py line 28 change to your path
-0.3. in chatgpt.py line 5 change to your path
 
 1. install dependencies:
 cd "path to CS2ChatGPT folder"
@@ -43,11 +42,10 @@ type in chat: "!ask your question"
 ---
 ### RUSSIAN
 ### первый запуск и настройка
-- 0.заходишь на опенроутер, получаешь апи ключ и вставляешь его в chatgpt.py в 6 строку
+- 0.заходишь на опенроутер, получаешь апи ключ и вставляешь его в chatgpt.py в 5 строку
 
 0.1. в main.py строки 8 9 10 меняешь на свои
 0.2. в util.py 28 строку поменяй на свой путь
-0.3. в chatgpt.py 5 строку поменяй на свою
 
 1. установка зависимостей:
 cd "путь к папке CS2ChatGPT"
