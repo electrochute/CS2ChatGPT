@@ -6,29 +6,36 @@ go to openrouter, get api key and paste it in chatgpt.py line 5
 in main.py lines 8 9 10 change to your paths
 in util.py line 28 change to your path
 install dependencies: (cmd)
+
 cd "path to CS2ChatGPT folder"
+
 pip install -r requirements.txt 
 
-create empty file "message.cfg":
+---create empty file "message.cfg":
+
 "your_path_to_CS2\game\csgo\cfg\message.cfg"
 
-cs2 properties -> launch options:
+---cs2 properties -> launch options:
+
 -condebug -conclearlog
 
-in game console:
+---in game console:
+
 bind f5 "exec message"
 
 ### every launch
 
 start cs2
 
-powershell as administrator:
+---powershell as administrator:
+
 cd "path to CS2ChatGPT folder"
+
 py main.py
 
 launch completed
 
-type in chat: "!ask your question"
+---type in chat: "!ask your question"
 
 ### default settings (you can change in code)
 
