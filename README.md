@@ -2,27 +2,27 @@
 
 ### ENGLISH
 ### first launch and setup
-0. go to openrouter, get api key and paste it in chatgpt.py line 5
-1. in main.py lines 8 9 10 change to your paths
-2. in util.py line 28 change to your path
-3. install dependencies:
+go to openrouter, get api key and paste it in chatgpt.py line 5
+in main.py lines 8 9 10 change to your paths
+in util.py line 28 change to your path
+install dependencies: (cmd)
 cd "path to CS2ChatGPT folder"
-pip install -r requirements.txt
+pip install -r requirements.txt 
 
-4. create empty file "message.cfg":
+create empty file "message.cfg":
 "your_path_to_CS2\game\csgo\cfg\message.cfg"
 
-5. cs2 properties -> launch options:
+cs2 properties -> launch options:
 -condebug -conclearlog
 
-6. in game console:
+in game console:
 bind f5 "exec message"
 
 ### every launch
 
-1. start cs2
+start cs2
 
-2. powershell as administrator:
+powershell as administrator:
 cd "path to CS2ChatGPT folder"
 py main.py
 
@@ -40,27 +40,27 @@ type in chat: "!ask your question"
 ---
 ### RUSSIAN
 ### первый запуск и настройка
-0.заходишь на опенроутер, получаешь апи ключ и вставляешь его в chatgpt.py в 5 строку
-1. в main.py строки 8 9 10 меняешь на свои
-2. в util.py 28 строку поменяй на свой путь
-3. установка зависимостей:
+заходишь на опенроутер, получаешь апи ключ и вставляешь его в chatgpt.py в 5 строку
+в main.py строки 8 9 10 меняешь на свои
+в util.py 28 строку поменяй на свой путь
+установка зависимостей:
 cd "путь к папке CS2ChatGPT"
 pip install -r requirements.txt
 
-4. создай пустой файл "message.cfg":
+создай пустой файл "message.cfg":
 "твой_путь_к_CS2\game\csgo\cfg\message.cfg"
 
-5.  свойства кс2 -> параметры запуска:
+свойства кс2 -> параметры запуска:
 -condebug -conclearlog
 
-6. в игре в консоли:
+в игре в консоли:
 bind f5 "exec message"
 
 ### каждый запуск
 
-1. запуск кс2
+запуск кс2
 
-2. powershell от имени администратора:
+powershell от имени администратора:
 cd "путь к папке CS2ChatGPT" 
 py main.py
 
